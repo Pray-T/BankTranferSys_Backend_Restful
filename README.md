@@ -231,7 +231,6 @@ Account secondAcc = accountRepository.findByAccountNumberForUpdate(second); <br>
 InnoDB의 스토리지 엔진에서는 PK를 정의하지 않으면 내부적으로 일련번호 칼럼을 추가합니다. 이는 PK를 auto_increment로 생성한 것과 똑같지만 Inno 스토리지 엔진이 내부적으로 생성한 칼럼은 사용자가 전혀 접근할 수 없습니다. 그렇기에 사용자가 접근하여 사용할 수 있도록 PK값을 설정하는 것이 훨씬 유리합니다.
 
 
-
-
+> 문서 갱신: 2026-05-29 — E2E 파이프라인 검증용(문서만 변경, 애플리케이션 동작 변경 없음).
 
 이상으로 저의 깃헙 Readme를 마치겠습니다, 읽어주셔서 감사합니다.
